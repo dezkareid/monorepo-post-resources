@@ -1,0 +1,18 @@
+{
+  "name": "monorepo-post-resources",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/webpack-dev-server"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.3.0",
+    "lerna": "^3.21.0"
+  }
+}

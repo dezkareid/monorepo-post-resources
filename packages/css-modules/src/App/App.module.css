@@ -1,0 +1,15 @@
+.card {
+  composes: max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl from global;
+}
+
+.card--container {
+  composes: ml-6 pt-1 from global;
+}
+
+.card--title {
+  composes: text-xl text-gray-900 leading-tight from global;
+}
+
+.card--text {
+  composes: text-base text-gray-600 leading-normal from global;
+}
