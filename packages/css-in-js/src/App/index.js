@@ -2,7 +2,7 @@ import React from 'react';
 import jss from '../jss';
 
 const className = jss`
-  color: blue;
+  color: black;
   font-size: 5rem;
 `;
 
