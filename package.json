@@ -6,7 +6,8 @@
       "packages/*"
     ],
     "nohoist": [
-      "**/webpack-dev-server"
+      "**/webpack-dev-server",
+      "**/webpack*"
     ]
   },
   "devDependencies": {
