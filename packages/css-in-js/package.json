@@ -1,0 +1,31 @@
+{
+  "name": "css-in-js",
+  "version": "1.0.0",
+  "description": "demo about css in js",
+  "keywords": [],
+  "author": "Joel Humberto Gomez Paredes <elmaildeldezkareid@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.config.js"
+  },
+  "bugs": {
+    "url": "https://github.com/dezkareid/monorepo-post-resources/issues"
+  },
+  "homepage": "https://github.com/dezkareid/monorepo-post-resources#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.1.0",
+    "webpack": "^5.20.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
