@@ -7,7 +7,8 @@
     ],
     "nohoist": [
       "**/webpack-dev-server",
-      "**/webpack*"
+      "**/webpack*",
+      "**/babel-jest"
     ]
   },
   "devDependencies": {
