@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import FlagProvider from './FlagProvider';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FlagProvider>
+      <App />
+    </FlagProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

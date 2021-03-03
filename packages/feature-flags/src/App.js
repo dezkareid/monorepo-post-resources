@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Flag from './Flag';
 
 function App() {
   return (
@@ -14,6 +15,11 @@ function App() {
         <button className="keanu__button" type="button">
           Share
         </button>
+        <Flag name="sharebutton">
+          <button className="keanu__button" type="button">
+            Share with friend
+          </button>
+        </Flag>
       </div>
     </div>
   );
