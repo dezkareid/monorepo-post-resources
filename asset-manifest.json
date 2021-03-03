@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/monorepo-post-resources/static/css/main.6e9f843a.chunk.css",
-    "main.js": "/monorepo-post-resources/static/js/main.87fddca9.chunk.js",
-    "main.js.map": "/monorepo-post-resources/static/js/main.87fddca9.chunk.js.map",
+    "main.js": "/monorepo-post-resources/static/js/main.1fdbe1ce.chunk.js",
+    "main.js.map": "/monorepo-post-resources/static/js/main.1fdbe1ce.chunk.js.map",
     "runtime-main.js": "/monorepo-post-resources/static/js/runtime-main.ceeaf7d0.js",
     "runtime-main.js.map": "/monorepo-post-resources/static/js/runtime-main.ceeaf7d0.js.map",
     "static/js/2.3cb457b1.chunk.js": "/monorepo-post-resources/static/js/2.3cb457b1.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ceeaf7d0.js",
     "static/js/2.3cb457b1.chunk.js",
     "static/css/main.6e9f843a.chunk.css",
-    "static/js/main.87fddca9.chunk.js"
+    "static/js/main.1fdbe1ce.chunk.js"
   ]
 }
