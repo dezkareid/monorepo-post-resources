@@ -24,18 +24,17 @@ jobs:
         run: npm ci
         env:
           CI: true
-      - name: Run semantic
-      - name: Build
-        if: ${{ github.event_name == 'push' }}
-        env:
-          REACT_APP_FF_CONFIG_CAT_KEY: ${{ secrets.REACT_APP_FF_CONFIG_CAT_KEY }}
-        run: npm run build
       - name: Create a release
         if: ${{ github.event_name == 'push' }}
         run: npx semantic-release -e semantic-release-monorepo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build
+        if: ${{ github.event_name == 'push' }}
+        env:
+          REACT_APP_FF_CONFIG_CAT_KEY: ${{ secrets.REACT_APP_FF_CONFIG_CAT_KEY }}
+        run: npm run build
       - name: Deploy 🚀
         if: ${{ github.event_name == 'push' }}
         uses: JamesIves/github-pages-deploy-action@4.0.0
