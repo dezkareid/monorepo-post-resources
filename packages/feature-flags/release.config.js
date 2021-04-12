@@ -1,6 +1,6 @@
 /* eslint-disable no-template-curly-in-string */
 module.exports = {
-  branches: ['master'],
+  branches: ['main'],
   repositoryUrl: 'https://github.com/dezkareid/monorepo-post-resources',
   tagFormat: 'ffv${version}',
   plugins: [
