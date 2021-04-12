@@ -18,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "semantic-release": "npx semantic-release"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +52,7 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1",
+    "semantic-release": "^17.4.2",
     "semantic-release-monorepo": "^7.0.4"
   }
 }
