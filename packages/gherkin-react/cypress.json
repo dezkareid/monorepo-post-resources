@@ -1,0 +1,6 @@
+{
+  "integrationFolder": "./features",
+  "testFiles": "**/*.feature",
+  "ignoreTestFiles": "*.js",
+  "video": false
+}

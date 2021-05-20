@@ -1,0 +1,13 @@
+{
+  "no-files-without-scenarios" : "on",
+  "no-unnamed-features": "on",
+  "no-unnamed-scenarios": "on",
+  "indentation": "on",
+  "no-trailing-spaces": "on",
+  "new-line-at-eof": ["on", "yes"],
+  "no-multiple-empty-lines": "on",
+  "no-empty-file": "on",
+  "no-scenario-outlines-without-examples": "on",
+  "name-length": ["on", {"Feature": 50}],
+  "scenario-size": ["on", { "steps-length": {"Background": 15, "Scenario": 15}}]
+}
