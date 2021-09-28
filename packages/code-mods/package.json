@@ -1,0 +1,22 @@
+{
+  "name": "code-mods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -c jest.config.transforms.js",
+    "test:watch": "npm test -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jscodeshift": "^0.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-jest": "^27.2.2",
+    "jest": "^27.2.2"
+  }
+}
