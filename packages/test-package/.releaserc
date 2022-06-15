@@ -13,7 +13,9 @@
       }
     ],
     ["@semantic-release/github", {
-      "assets": "dist/**"
+      "assets": [
+        { "path": "dist/*.js", "label": "JS distribution" }
+      ]
     }]
   ],
   "extends": "semantic-release-monorepo"
