@@ -1,6 +1,6 @@
 {
   "name": "test-package",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "build": "mkdir dist && cp index.js dist/",
