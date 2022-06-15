@@ -1,3 +1,10 @@
+# [test-package-v1.1.1](https://github.com/dezkareid/monorepo-post-resources/compare/test-package-v1.1.0...test-package-v1.1.1) (2022-06-15)
+
+
+### Bug Fixes
+
+* add distribution js ([fa52928](https://github.com/dezkareid/monorepo-post-resources/commit/fa52928ca0f58a99075ee34a8d84716877f3f9a5))
+
 # [test-package-v1.1.0](https://github.com/dezkareid/monorepo-post-resources/compare/test-package-v1.0.0...test-package-v1.1.0) (2022-06-15)
 
 
