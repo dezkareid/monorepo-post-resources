@@ -26,6 +26,8 @@ jobs:
           node-version: 16
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
+        with:
+          working-directory: packages/test-package
       - name: Run build script
         run: npm run build
       - name: Release
