@@ -1,0 +1,16 @@
+{
+  "name": "test-package",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.3",
+    "semantic-release-monorepo": "^7.0.5"
+  }
+}
