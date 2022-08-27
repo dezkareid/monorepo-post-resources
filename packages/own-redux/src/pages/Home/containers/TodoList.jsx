@@ -1,10 +1,15 @@
-import List from "../../../components/List";
+import List from '../../../components/List';
+import useDispatch from '../../../hooks/useDispatch';
+import useTodos from '../../../hooks/useTodos';
+import { removeTodo } from '../../../store/actions';
 
-function ToDoList({ list = [], onDelete }) {
-  const listElements = list.map(({ id, text }) => (
-    <li key={id}>
-      <p>{text}</p>
-      <button onClick={() => onDelete(id)}>Delete</button>
+function ToDoList() {
+  const dispatch = useDispatch();
+  const list = useTodos();
+  const listElements = list.map(todo => (
+    <li key={todo.id}>
+      <p>{todo.text}</p>
+      <button onClick={() => dispatch(removeTodo(todo))}>Delete</button>
     </li>
   ));
   return (
