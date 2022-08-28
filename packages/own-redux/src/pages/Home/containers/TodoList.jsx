@@ -1,11 +1,15 @@
 import List from '../../../components/List';
 import useDispatch from '../../../hooks/useDispatch';
-import useTodos from '../../../hooks/useTodos';
+import useSelector from '../../../hooks/useSelector';
 import { removeTodo } from '../../../store/actions';
+
+function todosSelector(state) {
+  return state.todos;
+}
 
 function ToDoList() {
   const dispatch = useDispatch();
-  const list = useTodos();
+  const list = useSelector(todosSelector);
   const listElements = list.map(todo => (
     <li key={todo.id}>
       <p>{todo.text}</p>

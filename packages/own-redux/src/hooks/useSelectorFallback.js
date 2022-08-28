@@ -1,5 +1,7 @@
-import { useCallback, useSyncExternalStore } from 'react';
+import { useCallback } from 'react';
+import {useSyncExternalStore} from 'use-sync-external-store/shim'
 import useStore from './useStore';
+
 
 
 const useSelector = (selector) => {

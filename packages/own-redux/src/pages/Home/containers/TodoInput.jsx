@@ -2,11 +2,15 @@ import Button from '../../../components/Button';
 import Form from '../../../components/Form';
 import Input from '../../../components/Input';
 import useDispatch from '../../../hooks/useDispatch';
-import useInput from '../../../hooks/useInput';
+import useSelector from '../../../hooks/useSelector';
 import { addTodo, setInput } from '../../../store/actions';
 
+function inputSelector (state) {
+  return state.input
+}
+
 function ToDoInput() {
-  const input = useInput();
+  const input = useSelector(inputSelector);
   const dispatch = useDispatch();
 
   const onSubmitHandler = event => {
