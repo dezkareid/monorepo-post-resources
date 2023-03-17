@@ -45,7 +45,6 @@
     "cypress": "^5.0.0",
     "cypress-cucumber-preprocessor": "^2.5.5",
     "gherkin-lint": "^4.0.1",
-    "jest-cucumber": "^2.0.11",
-    "node-sass": "^4.12.0"
+    "jest-cucumber": "^2.0.11"
   }
 }

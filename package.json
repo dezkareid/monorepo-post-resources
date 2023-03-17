@@ -2,13 +2,15 @@
   "name": "monorepo-post-resources",
   "private": true,
   "scripts": {
-    "prepare": "husky install",
-    "setup": "npm install && lerna bootstrap"
+    "prepare": "husky install"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
-    "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-conventional": "^12.1.1",
-    "husky": "^6.0.0",
-    "lerna": "^3.21.0"
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "husky": "^8.0.3",
+    "turbo": "^1.7.4"
   }
 }
