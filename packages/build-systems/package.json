@@ -22,7 +22,6 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
     "html-webpack-plugin": "^4.3.0",
-    "node-sass": "^4.14.1",
     "rollup": "^2.10.8",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-generate-html-template": "^1.6.1",
