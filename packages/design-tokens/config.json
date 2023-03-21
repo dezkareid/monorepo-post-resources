@@ -1,0 +1,44 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transforms": [
+        "custom/attribute",
+        "name/cti/kebab",
+        "size/rem",
+        "color/css"
+      ],
+      "buildPath": "build/scss/",
+      "files": [
+        {
+          "destination": "_colors.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        },
+        {
+          "destination": "_sizes.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          }
+        }
+      ]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+}
