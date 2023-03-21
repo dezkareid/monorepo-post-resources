@@ -1,0 +1,14 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sd": "style-dictionary",
+    "sd:init": "yarn sd init",
+    "sd:build": "node build.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "style-dictionary": "3.7.2"
+  }
+}
