@@ -1,11 +1,16 @@
 export class PubSub {
-  suscribers : Function[] = [];
+  subscribers : Function[] = [];
 
   suscribe(suscriber: Function) {
-    this.suscribers.push(suscriber);
+    this.subscribers.push(suscriber);
   }
 
-  publish(data: unknown) {
-    this.suscribers.forEach(suscriber => suscriber(data))
+  unsuscribe(subscriber: Function) {
+    this.subscribers = this.subscribers.filter(suscribed => suscribed !== subscriber)
   }
+
+  notify(data: unknown) {
+    this.subscribers.forEach(suscriber => suscriber(data))
+  }
+
 }
