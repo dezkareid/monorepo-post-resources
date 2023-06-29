@@ -1,0 +1,12 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "vitest"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^0.32.2"
+  }
+}
